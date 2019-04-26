@@ -1,3 +1,4 @@
+use mysql_tutorial;
 show tables ;
 
 DROP TABLE IF EXISTS `departments`;

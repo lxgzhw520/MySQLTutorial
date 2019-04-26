@@ -19,7 +19,7 @@
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://cdb-5ssi1fam.bj.tencentcdb.com:10068</jdbc-url>
+      <jdbc-url>jdbc:mysql://cdb-5ssi1fam.bj.tencentcdb.com:10068/mysql_tutorial</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
