@@ -34,3 +34,45 @@ select *
 from employees
 where not (department_id >= 90 and department_id <= 110)
    or salary > 15000;
+
+#查询员工名中包含字符a的员工信息
+select *
+from employees
+where last_name like '%a%';
+
+
+#查询员工名中第三个字符为n，第五个字符为l的员工名和工资
+select *
+from employees
+where last_name like '__n_l%';
+
+# 查询员工名中第二个字符为_的员工名
+select *
+from employees
+where last_name like '_\_%';
+
+# 查询员工编号在100到120之间的员工信息
+select *
+from employees
+where employee_id between 100 and 200;
+
+# 查询员工的工种编号是 IT_PROG、AD_VP、AD_PRES中的一个员工名和工种编号
+select last_name,job_id
+from employees
+where job_id in ('IT_PROG','AD_VP','AD_PRES');
+
+
+# 查询没有奖金的员工名和奖金率
+select last_name,commission_pct
+from employees
+where commission_pct is null;
+
+# 查询有奖金的员工名和奖金率
+select last_name,commission_pct
+from employees
+where commission_pct is not null;
+
+# 查询工资为12000的员工信息
+select *
+from employees
+where salary=12000;
