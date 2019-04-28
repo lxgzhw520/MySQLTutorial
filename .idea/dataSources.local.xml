@@ -12,7 +12,7 @@
       <introspection-schemas>*:@,mysql_tutorial</introspection-schemas>
     </data-source>
     <data-source name="TengXunYun [2]" uuid="c1370569-b008-47d7-873f-4d96009a1419">
-      <database-info product="MySQL" version="5.7.18-20170830-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.47 ( Revision: fe1903b1ecb4a96a917f7ed3190d80c049b1de29 )" dbms="MYSQL" exact-version="5.7.18" exact-driver-version="5.1">
+      <database-info product="MySQL" version="5.7.18-20170830-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" dbms="MYSQL" exact-version="5.7.18" exact-driver-version="5.1">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
